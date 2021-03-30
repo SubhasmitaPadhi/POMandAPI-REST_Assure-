@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Conga Intervew Testcases">
+<listeners>
+		<listener class-name="com.conga.qa.base.ExtendReportListener.ExtendReportListener" />
+	</listeners>
+
+
+	<test name="Scenario1Testcases">
+		<classes>
+			<class name="com.conga.qa.testcases.LoginPageTest"></class>
+		     <class name="com.conga.qa.testcases.HomePageTest"></class>
+			<class name="com.conga.qa.scenario3.ScenarioThreeTestCase"></class>
+			
+
+		</classes>
+	</test>
+</suite>
